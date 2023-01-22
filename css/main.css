@@ -10,6 +10,8 @@ body {
     width: 400px;
     display: flex;
     flex-direction: column;
+    display: flex;
+    flex-direction: column;
   }
   
   .emoji h2 {
@@ -23,10 +25,12 @@ body {
     color: white;
     padding: 1rem;
     border-radius: 8px;
+    display: flex;
   }
   
   .icon {
     font-size: 4rem;
+    order: -1;
   }
 
   .emojis {
@@ -40,5 +44,12 @@ body {
     align-self: center;
     order: -1;
   }
+
+  p {
+    display:flex;
+    flex-grow:1;
+  }
+
+
 
 
